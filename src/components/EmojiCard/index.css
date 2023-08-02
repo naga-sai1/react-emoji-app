@@ -1,0 +1,39 @@
+.emoji-card {
+  list-style-type: none;
+  display: flex;
+  width: 38%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-card {
+    width: 24%;
+  }
+}
+
+.emoji-btn {
+  background-color: #ffffff33;
+  border: 3px solid #ffffff30;
+  border-radius: 24px;
+  width: 100%;
+  height: 100px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-btn {
+    height: 200px;
+  }
+}
+
+.emoji-icon {
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-icon {
+    width: 100px;
+  }
+}

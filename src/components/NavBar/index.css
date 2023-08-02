@@ -1,0 +1,62 @@
+.nav-bar-container {
+  background-color: #ffffff33;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  margin-bottom: 22px;
+}
+
+.inner-container {
+  display: flex;
+  max-width: 1000px;
+  justify-content: space-between;
+  flex-basis: 80%;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 26px;
+  height: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 40px;
+  }
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 26px;
+  }
+}
+
+.scores-container {
+  display: flex;
+}
+
+.score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 22px;
+    margin-left: 32px;
+  }
+}
